@@ -11,7 +11,7 @@
     <dmn:itemComponent id="_2CD1BC35-57BD-4887-9FD2-AEA58C4C5A07" name="temperature" isCollection="false">
       <dmn:typeRef>Temperature</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_5D41B50E-30D9-40AE-8967-AAE83B8FCC30" name="rain-forcast" isCollection="false">
+    <dmn:itemComponent id="_5D41B50E-30D9-40AE-8967-AAE83B8FCC30" name="rainForcast" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_AA559BB8-A050-46D6-8CBA-9A4B6D8100B7" name="stormAlert" isCollection="false">
