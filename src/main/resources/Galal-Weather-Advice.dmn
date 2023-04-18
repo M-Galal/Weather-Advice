@@ -11,7 +11,7 @@
     <dmn:itemComponent id="_2CD1BC35-57BD-4887-9FD2-AEA58C4C5A07" name="temperature" isCollection="false">
       <dmn:typeRef>Temperature</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_5D41B50E-30D9-40AE-8967-AAE83B8FCC30" name="rain-forcast" isCollection="false">
+    <dmn:itemComponent id="_5D41B50E-30D9-40AE-8967-AAE83B8FCC30" name="rainForcast" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_AA559BB8-A050-46D6-8CBA-9A4B6D8100B7" name="stormAlert" isCollection="false">
@@ -51,7 +51,7 @@
     <dmn:decisionTable id="_40443C56-98D3-485D-BBDA-E5B6C0365D5A" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
       <dmn:input id="_970D7D30-21C1-4C6E-8EBF-F4A5E2EF0546">
         <dmn:inputExpression id="_B90AF487-D4E4-42C9-A6E0-C6D49EF9D4D7" typeRef="number">
-          <dmn:text>Weather.rain-forcast</dmn:text>
+          <dmn:text>Weather.rainForcast</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:input id="_A46A9A17-1139-4277-B992-B51F51D16BD1">
@@ -145,9 +145,9 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_40443C56-98D3-485D-BBDA-E5B6C0365D5A">
             <kie:width>50</kie:width>
-            <kie:width>100</kie:width>
-            <kie:width>100</kie:width>
-            <kie:width>100</kie:width>
+            <kie:width>138</kie:width>
+            <kie:width>148</kie:width>
+            <kie:width>139</kie:width>
             <kie:width>370</kie:width>
             <kie:width>167</kie:width>
           </kie:ComponentWidths>
